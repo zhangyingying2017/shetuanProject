@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+    <link href="css/分享.css" type="text/css" rel="stylesheet">
+    <link href="css/头尾.css" type="text/css" rel="stylesheet">
+    <script>
+window.onload = function (){
+	var oH = document.getElementById('header_r');
+	var oDeng = document.getElementById('deng');
+	var oZhuce = document.getElementById('zhuce');
+	var oDenglu = document.getElementById('denglu');
+	var oBut = document.getElementById('but');
+	
+	oH.onmouseover = function (){
+		oDeng.style.display = 'block';
+	};
+	oDeng.onmouseover = function (){
+		this.style.display = 'block';
+	};
+	oDeng.onmouseout = function hide(){
+		this.style.display = 'none';
+	};
+	
+	oZhuce.onclick = function (){
+		oDenglu.style.display = 'block';
+	};
+	oBut.onclick = function(){
+		oDenglu.style.display = 'none';
+		}
+};
+</script>
+
+</head>
+<body>
+<div id="wrap">
+	<div id="header">
+    	<img src="images/E-life.png">
+        <div id="header_r">
+            <a href="#"><img src="images/var_r.jpg"></a>
+        </div>
+        <div id="deng">
+              <div class="deng">
+                <form method="post"> 
+                <tr align="right"><td><font color="#ecedee">账户：</font></td><td><input type="text" required  name="u"></input></td></tr>  
+                <tr align="right"><td><font color="#ecedee">密码：</font></td><td><input type="password" required name="p"></input></td></tr>
+               <tr id="bb"><td><a href="#" id="zhuce">注册账户</a></td><td><a href="">登录</a></td></tr> 
+                </form>   
+               </div>
+           </div>
+           <div class="denglu" id="denglu">
+              <div class="dl">
+                  <h2>Login</h2> 
+                    <form method="post">   
+                      <input id="in2" type="text" required placeholder="输入用户名/邮箱/手机号码" name="u"></input><span></span>  
+                      <input id="in1" type="password" required placeholder="密码输入密码" name="p"></input><span></span>
+                      <input id="in1" type="password" required placeholder="确认输入密码" name="p"></input><span id="fal"></span>
+                      <button id="but" type="submit">取消</button> 
+                      <button class="but" type="submit">确定</button>   
+                    </form>   
+              </div>
+            </div> 
+    </div>
+    <img id="fenx_t" src="images/fenxiang_t.png"/>
+    <div id="bottom">
+        <div id="left"> 
+            <div id="data">
+                <div id="top"><img src="images/fenxiang_shu.png"/></div>
+                <div id="bot"><img src="images/fenxiang_shu_b.png"/></div>
+                <div id="jilu">
+                     <div id="jilu_t"><img src="images/fenxiang_jilu.png"/><p>云南这么美，我要去看看</p></div>
+                     <div id="jilu_b">元阳梯田规模宏大，气势磅礴，绵延整个红河南岸的红河、元阳、绿春及金平等县，仅元阳县境内就有17万亩梯田，是红河哈尼梯田的核心区。
+2013年6月22日在第37届世界遗产大会上哈尼梯田被成功列入世界遗产名录，成为我国第45处世界遗产。
+</div>
+					 <div id="more"><span>more</span></div>
+                </div> 
+             </div>
+              <div id="data">
+                <div id="top"><img src="images/fenxiang_shu.png"/></div>
+                <div id="bot"><img src="images/fenxiang_shu_b.png"/></div>
+                <div id="jilu_a">
+                     <div id="jilu_t"><img src="images/fenxiang_jilu_b.png"/><p>云南这么美，我要去看看</p></div>
+                     <div id="jilu_b">元阳梯田规模宏大，气势磅礴，绵延整个红河南岸的红河、元阳、绿春及金平等县，仅元阳县境内就有17万亩梯田，是红河哈尼梯田的核心区。
+2013年6月22日在第37届世界遗产大会上哈尼梯田被成功列入世界遗产名录，成为我国第45处世界遗产。
+</div>
+					 <div id="more"><span>more</span></div>
+                </div> 
+             </div>
+             <div id="data_b">
+                <div id="top"><img src="images/fenxiang_shu.png"/></div>
+                <div id="bot"><img src="images/fenxiang_shu_b.png"/></div>
+                <div id="jilu_r"></div> 
+             </div>
+        </div>
+        <div id="right">
+            <div id="right_t">
+                <h3>热门读物</h3>
+                <div class="right_t">
+                    <div id="img"><img src="images/fenxiang_r.png"/></div>
+                    <div class="agileits_recent_posts_gridr">
+                                <h4><a href="singlepage.html">人迷茫的时候该干什么</a></h4>
+                                <h5>FEB 15,2017</h5>
+                    </div>
+                </div>
+                <div class="right_t">
+                    <div id="img"><img src="images/fenxiang_r_b.png"/></div>
+                    <div class="agileits_recent_posts_gridr">
+                                <h4><a href="singlepage.html">人迷茫的时候该干什么</a></h4>
+                                <h5>FEB 15,2017</h5>
+                    </div>
+                </div>
+                 <div class="right_t">
+                    <div id="img"><img src="images/fenxiang_r_b.png"/></div>
+                    <div class="agileits_recent_posts_gridr">
+                                <h4><a href="singlepage.html">人迷茫的时候该干什么</a></h4>
+                                <h5>FEB 15,2017</h5>
+                    </div>
+                </div>
+                 <div class="right_t">
+                    <div id="img"><img src="images/fenxiang_r_b.png"/></div>
+                    <div class="agileits_recent_posts_gridr">
+                                <h4><a href="singlepage.html">人迷茫的时候该干什么</a></h4>
+                                <h5>FEB 15,2017</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="right_b">
+            	<h3>最新评论</h3>
+                <div id="right_b_t">
+                	<h4>用户4***8发表了点评</h4>
+                    <p>[清明]&lt焦作-云台山-登封-少林寺-洛阳-龙门石窟-开封府-小宋城4日游&gt赏国色天香牡丹，开封美食小吃，无购物，入住市中心酒店，郑州起止
+<span>总体来说还是不错滴！如果天气在暖和一点就更好了，热情大方的导游韦美女耐心的讲解和热情还是蛮</span></p>
+                </div>
+                <div id="right_b_t">
+                	<h4>用户4***8发表了点评</h4>
+                    <p>[清明]&lt焦作-云台山-登封-少林寺-洛阳-龙门石窟-开封府-小宋城4日游&gt赏国色天香牡丹，开封美食小吃，无购物，入住市中心酒店，郑州起止
+<span>总体来说还是不错滴！如果天气在暖和一点就更好了，热情大方的导游韦美女耐心的讲解和热情还是蛮</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="demo">
+            <ul class="pager">
+                <li id="page_up"><a href="#page_up">&laquo;</a></li>
+                <li id="one"><a href="#one">1</a></li>
+                <li id="two"><a href="#two">2</a></li>
+                <li id="three"><a href="#three">3</a></li>
+                <li id="four"><a href="#four">4</a></li>
+                <li id="five"><a href="#five">5</a></li>
+                <li id="six"><a href="#six">6</a></li>
+                <li id="seven"><a href="#seven">7</a></li>
+                <li id="next_page"><a href="#next_page">&raquo;</a></li>
+                <li id="last"><a href="#last">Last &raquo;</a></li>
+            </ul>
+	</div>
+    <div id="bb">
+    	<div id="bb_l">
+            <h2>记录我的足迹</h2>
+            <form>
+                <tr><td><span>主题</span></td><td><input id="input" type="text"/></td></tr>
+                <tr><td><span>添加</span></td><td><input class="input" type="file"/></td></tr><br>
+                <tr><div id="s"><span class="img"></span></div><textarea style=" width:456px; height:110px;">message</textarea></tr><br>
+                <tr><input type="button" class="buut" value="SEND"></tr>
+            </form>
+        </div>
+    </div>
+     <div id="bb_b">
+    	<p class="footer-nav">
+            <a href="http://www.china z.com/aboutus/index.html" target="_blank">关于我们</a> |
+            <a href="http://www.china z.com/aboutus/contact.php?from=down" target="_blank">联系我们</a> |
+            <a href="http://www.china z.com/aboutus/ad.html" target="_blank">广告服务</a> |
+            <a href="http://www.china z.com/aboutus/link.html" target="_blank">友情链接</a> |
+            <a href="http://www.china z.com/aboutus/announce.html" target="_blank">版权声明</a> |
+            <a href="http://www.chin az.com/aboutus/join.html" target="_blank">人才招聘</a> |
+            <a href="http://www.chin az.com/aboutus/help.html" target="_blank">帮助</a> |
+            <a href="/member/submi t.aspx" target="_blank">发布软件/源码</a> |
+            <a href="http://down.china z.com/member/contribute.aspx" target="_blank">发布文章/稿件</a>
+        </p>
+        <p>豫ICP备08105208号 郑州轻工业学院增值电信业务经营许可证</p>
+    </div>
+</div>
+</body>
+</html>
+

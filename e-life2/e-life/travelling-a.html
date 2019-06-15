@@ -1,0 +1,824 @@
+﻿<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>travelling-a</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel=StyleSheet href="css/city.css" type="text/css">
+		<script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+        <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+		<link rel="shortcut icon" type="image/x-icon" href="img/icon/favicon.ico">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/elegant-font.css">
+        <link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+        <link rel="stylesheet" href="css/meanmenu.min.css">
+		<link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/animate-heading.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="css/jquery-ui.css">
+        <link rel="stylesheet" href="css/shortcode/shortcodes.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/bottom.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body class="other-page">
+		<header>
+			<div class="menu-area mt-60">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-12">
+							<div class="logo-area text-center text-uppercase res-logo-sm">
+								<a href="index.html"><img src="img/icon/logo.png" alt=""/></a>
+							</div>
+						</div>
+						<div class="col-md-9 col-sm-12">
+							<div class="main-menu lemon-bg">
+								<nav>
+									<ul id="nav">
+										<li><a href="index.html">Home</a></li>
+										<li><a href="clothing-a.html">clothing</a></li>
+										<li><a href="eating-a.html">eating</a>
+											<ul>
+												<li><a href="shop.html"><i class="arrow_carrot-right"></i>1</a></li>
+												<li><a href="about.html"><i class="arrow_carrot-right"></i> 1</a></li>
+												<li><a href="shop-list.html"><i class="arrow_carrot-right"></i>1</a></li>
+												<li><a href="single-product.html"><i class="arrow_carrot-right"></i>1</a></li>
+											</ul>
+										</li>
+										<li><a href="living-a.html">living</a>
+											<ul>
+												<li><a href="blog.html"><i class="arrow_carrot-right"></i>1</a></li>
+												<li><a href="blog-details.html"><i class="arrow_carrot-right"></i>1</a></li>
+											</ul>
+										</li>
+										<li><a href="travelling-a.html">travelling</a>
+											<ul>
+												<li><a href="checkout.html"><i class="arrow_carrot-right"></i>1</a></li>
+												<li><a href="cart.html"><i class="arrow_carrot-right"></i>1</a></li>
+												<li><a href="account.html"><i class="arrow_carrot-right"></i>1</a></li>
+												<li><a href="login.html"><i class="arrow_carrot-right"></i>1</a></li>
+											</ul>
+										</li>
+										<li><a href="share-a.html">share</a></li>
+										<li><a href="contact.html">CONTACT</a></li>
+									</ul>
+								</nav>
+								<div class="menu-right-area">
+									<a href="sign up.html" class="mini-cart-icon">
+										<img src="img/icon/section.png"/>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="banner-area pb-90 pt-160 bg-2">
+				<div class="container">
+					<div class="row">
+						<div class="banner-content text-center text-white">
+							<h1>living</h1>
+							<ul>
+								<li><a href="index.html">home</a> <span class="arrow_carrot-right "></span></li>
+								<li>living</li>
+							</ul>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+        
+        <div class="city">
+		<span id="DY_site_name" class="red city-name Left">北京站</span>
+		<div id="JS_hide_city_menu_11" class="city-select cut_handdler Left">
+			<a href="javascript:void(0);" class="common-bg selector">切换</a>
+			<div id="JS_header_city_bar_box" class="hide_city_group">
+				<div class="hideMap">
+					<div class="showPanel clearfix">
+						<div class="Left mycity">
+							<div id="JS_current_city_box">
+								当前城市：<strong id="JS_city_current_city">北京</strong> <a class="red" style="" id="JS_set_default_city_header"
+									href="#">[设为默认城市]</a>
+							</div>
+							<div id="JS_default_city_delete" style="display: none;"></div>
+						</div>
+						<a class="Right near" id="JS_my_near_expr" target="_blank" href="/beijing/area.html">附近的体验馆</a>
+					</div>
+					<div class="showPanel showPanel2 clearfix">
+						<div class="hot_city" id="JS_header_city_hot">
+						</div>
+						<div class="mt10">
+							<div id="JS_search_city_tip_header" class="search_city_tip" style="display: none;">抱歉，该城市暂无体验馆！</div>
+							<input id="JS_search_city_input_header" class="search_city_input" placeholder="输入城市名" value="输入城市名"><input type="button" id="JS_search_city_submit_header"
+								class="search_city_submit" value="搜索">
+						</div>
+						<div class="city_words mt10" id="JS_header_city_char">
+						</div>
+					</div>
+					<div class="scrollBody">
+						<div class="cityMap clearfix">
+							<table id="JS_header_city_list" class="city_list" style="margin-top: 0px;">
+								<tbody>
+								</tbody>
+							</table>
+						</div>
+						<div class="scrollBar">
+							<span id="JS_header_city_bar" style="margin-top: 0px;"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<span class="common-bg city-logo"></span>
+	</div>
+    
+		<section class="page-content-wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="content-full pt-50 pb-55 fix">
+						<!-- 左部分 -->
+						<div class="col-md-3">
+							<div class="right-area pt-35">
+								<div class="product-filter">
+									<h6>玩乐地 推荐</h6>
+									<div class="category mt-50">
+										<h4>分类</h4>
+										<div class="category-list mt-20">
+											<ul>
+												<li>
+													<a href="#"><i class="zmdi zmdi-chevron-right"></i>国内游<span>>></span></a>
+												</li>
+												<li>
+													<a href="#"><i class="zmdi zmdi-chevron-right"></i>周边游<span>>></span></a>
+												</li>
+												<li>
+													<a href="#"><i class="zmdi zmdi-chevron-right"></i>邮轮<span>>></span></a>
+												</li>
+												<li>
+													<a href="#"><i class="zmdi zmdi-chevron-right"></i>门票<span>>></span></a>
+												</li>
+                                                <li>
+													<a href="#"><i class="zmdi zmdi-chevron-right"></i>高端游<span>>></span></a>
+												</li>
+                                                <li>
+													<a href="#"><i class="zmdi zmdi-chevron-right"></i>自由行<span>>></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="category mt-50">
+										<h4>价位</h4>
+										<ul class="size-widget mt-30">
+											<li><a href="#">低</a></li>
+											<li><a href="#">中</a></li>
+											<li><a href="#">高</a></li>
+											<li><a href="#">豪华</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="product-filter mt-50">
+									<h6>品牌推荐</h6>
+									<div class="new-arrival-area">
+										<div class="new-arrival-single mt-50 mb-30">
+											<div class="arrival-thumbnail">
+												<img src="img/arrival/1.jpg" alt="" />
+											</div>
+											<div class="arrival-content">
+												<h6><a href="#">科尔斯链条方包拉链单肩斜挎女包</a></h6>
+												<div class="price-box">
+													<span class="old-price">￥400.00</span>
+												</div>
+											</div>
+										</div>
+										<div class="new-arrival-single mb-30">
+											<div class="arrival-thumbnail">
+												<img src="img/arrival/2.jpg" alt="" />
+											</div>
+											<div class="arrival-content">
+												<h6><a href="#">瑞士原装依波路雅丽系列 </a></h6>
+												<div class="price-box">
+													<span class="old-price">￥700.00</span>
+												</div>
+											</div>
+										</div>
+										<div class="new-arrival-single mb-30">
+											<div class="arrival-thumbnail">
+												<img src="img/arrival/3.jpg" alt="" />
+											</div>
+											<div class="arrival-content">
+												<h6><a href="#">尚都比拉新款条纹西装短裤两件套</a></h6>
+												<div class="price-box">
+													<span class="old-price">￥399.00</span>
+												</div>
+											</div>
+										</div>
+										<div class="new-arrival-single">
+											<div class="arrival-thumbnail">
+												<img src="img/arrival/4.jpg" alt="" />
+											</div>
+											<div class="arrival-content">
+												<h6><a href="#">MG小象 时尚外套</a></h6>
+												<div class="price-box">
+													<span class="old-price">￥400.00</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-9">
+							<div class="tab-content">
+								<div id="grid" class="shop-left pt-35 tab-pane fade in active">
+									<div class="shop-tab-area">
+										<div class="row">
+											<div class="col-md-4 col-sm-6">
+												<div class="single-product style-two mb-50">
+													<div class="single-img">
+														<a href="#"><img src="img/shop-grid/111.jpg" alt="" /></a>
+														<div class="hover-content text-center">
+															<ul>
+																<li><a href="#" class="icon_refresh"></a></li>
+																<li><a href="#" class="icon_cart_alt "></a></li>
+																<li><a href="#" class="icon_heart_alt"></a></li>
+																<li>
+																	<a title="Quick View" href="#" data-toggle="modal" data-target="#productModal" class="icon_search"></a>
+																</li>
+															</ul>
+														</div>
+													</div>
+													<div class="product-details mt-20">
+														<h4><a href="single-product.html">哈尔滨冰雪大世界</a><span></span></h4>
+														<div class="rating-box">
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+														</div>
+														<div class="price-box">
+															<span class="old-price">￥1200.00</span>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4 col-sm-6">
+												<div class="single-product style-two mb-50">
+													<div class="single-img">
+														<a href="#"><img src="img/shop-grid/111.jpg" alt="" /></a>
+														<div class="hover-content text-center">
+															<ul>
+																<li><a href="#" class="icon_refresh"></a></li>
+																<li><a href="#" class="icon_cart_alt "></a></li>
+																<li><a href="#" class="icon_heart_alt"></a></li>
+																<li>
+																	<a title="Quick View" href="#" data-toggle="modal" data-target="#productModal" class="icon_search"></a>
+																</li>
+															</ul>
+														</div>
+													</div>
+													<div class="product-details mt-20">
+														<h4><a href="single-product.html">哈尔滨冰雪大世界</a><span></span></h4>
+														<div class="rating-box">
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+														</div>
+														<div class="price-box">
+															<span class="old-price">￥1200.00</span>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4 col-sm-6">
+												<div class="single-product style-two mb-50">
+													<div class="single-img">
+														<a href="#"><img src="img/shop-grid/111.jpg" alt="" /></a>
+														<div class="hover-content text-center">
+															<ul>
+																<li><a href="#" class="icon_refresh"></a></li>
+																<li><a href="#" class="icon_cart_alt "></a></li>
+																<li><a href="#" class="icon_heart_alt"></a></li>
+																<li>
+																	<a title="Quick View" href="#" data-toggle="modal" data-target="#productModal" class="icon_search"></a>
+																</li>
+															</ul>
+														</div>
+													</div>
+													<div class="product-details mt-20">
+														<h4><a href="single-product.html">哈尔滨冰雪大世界</a><span></span></h4>
+														<div class="rating-box">
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+														</div>
+														<div class="price-box">
+															<span class="old-price">￥1200.00</span>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4 col-sm-6">
+												<div class="single-product style-two mb-50">
+													<div class="single-img">
+														<a href="#"><img src="img/shop-grid/111.jpg" alt="" /></a>
+														<div class="hover-content text-center">
+															<ul>
+																<li><a href="#" class="icon_refresh"></a></li>
+																<li><a href="#" class="icon_cart_alt "></a></li>
+																<li><a href="#" class="icon_heart_alt"></a></li>
+																<li>
+																	<a title="Quick View" href="#" data-toggle="modal" data-target="#productModal" class="icon_search"></a>
+																</li>
+															</ul>
+														</div>
+													</div>
+													<div class="product-details mt-20">
+														<h4><a href="single-product.html">哈尔滨冰雪大世界</a><span></span></h4>
+														<div class="rating-box">
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+														</div>
+														<div class="price-box">
+															<span class="old-price">￥1200.00</span>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4 col-sm-6">
+												<div class="single-product style-two mb-50">
+													<div class="single-img">
+														<a href="#"><img src="img/shop-grid/111.jpg" alt="" /></a>
+														<div class="hover-content text-center">
+															<ul>
+																<li><a href="#" class="icon_refresh"></a></li>
+																<li><a href="#" class="icon_cart_alt "></a></li>
+																<li><a href="#" class="icon_heart_alt"></a></li>
+																<li>
+																	<a title="Quick View" href="#" data-toggle="modal" data-target="#productModal" class="icon_search"></a>
+																</li>
+															</ul>
+														</div>
+													</div>
+													<div class="product-details mt-20">
+														<h4><a href="single-product.html">哈尔滨冰雪大世界</a><span></span></h4>
+														<div class="rating-box">
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+														</div>
+														<div class="price-box">
+															<span class="old-price">￥1200.00</span>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4 col-sm-6">
+												<div class="single-product style-two mb-50">
+													<div class="single-img">
+														<a href="#"><img src="img/shop-grid/111.jpg" alt="" /></a>
+														<div class="hover-content text-center">
+															<ul>
+																<li><a href="#" class="icon_refresh"></a></li>
+																<li><a href="#" class="icon_cart_alt "></a></li>
+																<li><a href="#" class="icon_heart_alt"></a></li>
+																<li>
+																	<a title="Quick View" href="#" data-toggle="modal" data-target="#productModal" class="icon_search"></a>
+																</li>
+															</ul>
+														</div>
+													</div>
+													<div class="product-details mt-20">
+														<h4><a href="single-product.html">哈尔滨冰雪大世界</a><span></span></h4>
+														<div class="rating-box">
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+														</div>
+														<div class="price-box">
+															<span class="old-price">￥1200.00</span>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4 col-sm-6">
+												<div class="single-product style-two mb-50 res-mb-0">
+													<div class="single-img">
+														<a href="#"><img src="img/shop-grid/111.jpg" alt="" /></a>
+														<div class="hover-content text-center">
+															<ul>
+																<li><a href="#" class="icon_refresh"></a></li>
+																<li><a href="#" class="icon_cart_alt "></a></li>
+																<li><a href="#" class="icon_heart_alt"></a></li>
+																<li>
+																	<a title="Quick View" href="#" data-toggle="modal" data-target="#productModal" class="icon_search"></a>
+																</li>
+															</ul>
+														</div>
+													</div>
+													<div class="product-details mt-20">
+														<h4><a href="single-product.html">哈尔滨冰雪大世界</a><span></span></h4>
+														<div class="rating-box">
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+														</div>
+														<div class="price-box">
+															<span class="old-price">￥1200.00</span>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4 col-sm-6">
+												<div class="single-product style-two mb-50 res-mb-0">
+													<div class="single-img">
+														<a href="#"><img src="img/shop-grid/111.jpg" alt="" /></a>
+														<div class="hover-content text-center">
+															<ul>
+																<li><a href="#" class="icon_refresh"></a></li>
+																<li><a href="#" class="icon_cart_alt "></a></li>
+																<li><a href="#" class="icon_heart_alt"></a></li>
+																<li>
+																	<a title="Quick View" href="#" data-toggle="modal" data-target="#productModal" class="icon_search"></a>
+																</li>
+															</ul>
+														</div>
+													</div>
+													<div class="product-details mt-20">
+														<h4><a href="single-product.html">哈尔滨冰雪大世界</a><span></span></h4>
+														<div class="rating-box">
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+														</div>
+														<div class="price-box">
+															<span class="old-price">￥1200.00</span>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4 col-sm-6 hidden-sm">
+												<div class="single-product style-two mb-50 sm-m-0">
+													<div class="single-img">
+														<a href="#"><img src="img/shop-grid/111.jpg" alt="" /></a>
+														<div class="hover-content text-center">
+															<ul>
+																<li><a href="#" class="icon_refresh"></a></li>
+																<li><a href="#" class="icon_cart_alt "></a></li>
+																<li><a href="#" class="icon_heart_alt"></a></li>
+																<li>
+																	<a title="Quick View" href="#" data-toggle="modal" data-target="#productModal" class="icon_search"></a>
+																</li>
+															</ul>
+														</div>
+													</div>
+													<div class="product-details mt-20">
+														<h4><a href="single-product.html">哈尔滨冰雪大世界</a><span></span></h4>
+														<div class="rating-box">
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+														</div>
+														<div class="price-box">
+															<span class="old-price">￥1200.00</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="page-pagination text-center pt-50 sm-p-0">
+								<ul>
+									<li class="active"><a href="#">1</a></li>
+									<li><a href="#">2</a></li>
+									<li><a href="#">3</a></li>
+									<li><a href="#">4</a></li>
+									<li class="next"><a href="#"><span class="icon-left" data-icon="&#x24;"></span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+        <div id="bb_b">
+                <p class="footer-nav">
+                    <a href="#" target="_blank">关于我们</a> |
+                    <a href="#" target="_blank">联系我们</a> |
+                    <a href="#" target="_blank">广告服务</a> |
+                    <a href="#" target="_blank">友情链接</a> |
+                    <a href="#" target="_blank">版权声明</a> |
+                    <a href="#" target="_blank">帮助</a>
+                </p>
+                <p>郑州轻工业学院 大学生科技创业中心</p>
+   			 </div>
+        
+        <script type="text/javascript">
+			var words = 'ABCDEFGHJKLMNPQRSTWXYZ';
+			var hot = ['全国','北京','上海','广州','深圳','成都','西安','天津','武汉','重庆','南京'];
+			var data = [
+				['鞍山','安庆','安阳','安康'],
+				['北京','保定','包头','巴彦淖尔盟','本溪','蚌埠','亳州','滨州','宝鸡','巴音郭楞'],
+				['承德','沧州','长治','赤峰','长春','常州','滁州','长沙','常德','郴州','重庆','成都','慈溪','常熟'],
+				['大同','大连','丹东','大庆','东营','德州','东莞','德阳','达州','儋州','定州'],
+				['鄂州','恩施'],
+				['抚顺','阜阳','福州','佛山','富阳'],
+				['赣州','广州','桂林','贵港','广元','贵阳','公主岭'],
+				['邯郸','衡水','侯马','呼和浩特','呼伦贝尔','哈尔滨','淮安','杭州','湖州','合肥','淮南','淮北','鹤壁','黄石','衡阳','怀化','惠州','海口','汉中','葫芦岛','菏泽','海城','河津'],
+				['晋城','晋中','锦州','吉林','佳木斯','嘉兴','金华','九江','吉安','济南','济宁','焦作','荆州','荆门','江门','嘉峪关','胶州','江阴','靖江','金坛','济源','句容'] ,
+				['昆明','昆山'], 
+				['廊坊','临汾','吕梁','辽阳','连云港','丽水','六安','龙岩','莱芜','临沂','聊城','洛阳','漯河','娄底','柳州','泸州','乐山','六盘水','兰州','临海','莱西','临安','浏阳','灵武'],
+				['牡丹江','马鞍山','绵阳','眉山','弥勒'], 
+				['南京','南通','宁波','南昌','南阳','南宁','内江','南充'], 
+				['盘锦','莆田','萍乡','平顶山','濮阳'], 
+				['秦皇岛','齐齐哈尔','衢州','泉州','青岛','清远','钦州','曲靖','庆阳','琼海','青州'], 
+				['日照','如皋','任丘'], 
+				['石家庄','沈阳','四平','松原','上海','苏州','宿迁','绍兴','宿州','上饶','三门峡','商丘','十堰','随州','邵阳','深圳','汕头','遂宁','上虞','双城市'], 
+				['天津','唐山','太原','通辽','铁岭','泰州','台州','铜陵','泰安','太仓','泰兴','桐庐','桐乡'], 
+				['无锡','温州','芜湖','潍坊','威海','武汉','渭南','乌鲁木齐'], 
+				['邢台','徐州','厦门','新余','新乡','许昌','信阳','襄阳','孝感','咸宁','湘潭','西安','咸阳','西宁','孝义','仙桃','兴化'], 
+				['运城','营口','盐城','扬州','宜春','烟台','宜昌','岳阳','益阳','永州','玉林','宜宾','银川','义乌','永康','宜兴','余姚','延吉','伊宁'], 
+				['张家口','镇江','舟山','漳州','淄博','枣庄','郑州','周口','驻马店','株洲','珠海','湛江','肇庆','中山','自贡','资阳','遵义','昭通','诸城','张家港','诸暨','枣阳']
+			];
+			var TIP = '输入城市名';
+			jQuery (function ($)
+			{
+				var search = $(':text#JS_search_city_input_header');
+				search.focus(function () 
+				{
+					$(this).val('');
+				});
+				
+				var box = $('div#JS_header_city_bar_box');
+				var choose = $('a.common-bg.selector');
+				var menu = $('div#JS_hide_city_menu_11');
+				choose.hover (function ()
+				{
+					box.show ();
+					menu.addClass('hover');
+					search.val (TIP);
+				}, function () 
+				{
+					box.hide ();
+					menu.removeClass('hover');
+				});
+				
+				box.hover (function ()
+				{
+					box.show ();
+					menu.addClass('hover');
+				}, function ()
+				{
+					box.hide ();
+					menu.removeClass('hover');
+				});
+				
+				var elem = !$.browser.chrome ? document.documentElement : document.body;
+				var doc = $(document);
+				var scrollBar = $('div.scrollBar');
+				var tableList = $('table#JS_header_city_list');
+				var bar = $('span#JS_header_city_bar');
+				var bargap = scrollBar.height() - bar.height();
+				var dh = 191 + bar.height()/2 + elem.scrollTop - parseFloat (bar.css ('margin-top'));
+				var citychar = $('div#JS_header_city_char');
+				var chars = $(words.split('')), len = chars.length - 3;
+				var citylist = tableList.find('tbody');
+				var tablegap = 0;
+				scrollBar.click (function (e) 
+				{
+					e = e || window.event;
+					if (tablegap == 0)
+					{
+						for ( var i = 0; i < len; i++)
+						{
+							tablegap += tableList.find('tr:eq('+i+')').height();
+						}
+					}
+					var offsetY = e.clientY + elem.scrollTop - dh;
+					offsetY = offsetY < 0 ? 0 : offsetY;
+					offsetY = offsetY > bargap ? bargap : offsetY;
+					bar.css ('margin-top', offsetY + 'px');
+					tableList.css ('margin-top', -tablegap * offsetY / bargap + 'px');
+					INDEX = len * offsetY / bargap;
+					return destroy (e);
+				});
+				doc.mousedown (function (e)
+				{
+					e = e || window.event;
+					var target = e.target;
+					if (target !== choose[0] && box.find($(target)).length === 0 && box.is(':visible'))
+					{
+						box.hide();
+					}
+				}).mouseup (function (e) 
+				{
+					e = e || window.event;
+					$(this).unbind('mousemove');
+					return destroy (e);
+				});
+				var hotcity = $(hot);
+				var city = $('div#JS_header_city_hot');
+				var currentCity = $('#JS_city_current_city'), siteName = $('span#DY_site_name');
+				hotcity.each (function (i, eleDom)
+				{
+					var a = $ ('<a href="#"></a>');
+					a.click (function ()
+					{
+						var txt = $(this).text();
+						currentCity.text (txt);
+						siteName.text (txt + '站');
+					});
+					if (i == 0)
+					{
+						a.html ('<strong>' + eleDom + '</strong>');
+					}
+					else
+					{
+						a.text (eleDom);
+					}
+					city.append(a);
+				});
+				
+				bar.mousedown (function (e) 
+				{
+					e = e || window.event;
+					if (tablegap == 0)
+					{
+						for ( var i = 0; i < len; i++)
+						{
+							tablegap += tableList.find('tr:eq('+i+')').height();
+						}
+					}
+					var me = $(this);
+					var delta = e.clientY - elem.scrollTop - parseFloat (me.css('margin-top'));
+					doc.mousemove (function (evt) 
+					{
+						evt = evt || window.event;
+						var y = evt.clientY - elem.scrollTop - delta;
+						y = y < 0 ? 0 : y;
+						y = y > bargap ? bargap : y;
+						me.css ('margin-top', y + 'px');
+						tableList.css ('margin-top', -tablegap * y / bargap + 'px');
+						INDEX = len * y / bargap;
+						return destroy (evt);
+					});
+					return destroy (e);
+				});
+				
+				chars.each (function (i, dom)
+				{
+					var a = $('<a href="#"></a>');
+					a.mouseover (function ()
+					{ 
+						var h = 0;
+						var index = $(this).index ('div#JS_header_city_char a');
+						INDEX = index = index > len ? len : index;
+						for ( var i = 0; i < index; i++)
+						{
+							h += tableList.find('tr:eq('+i+')').height();
+						}
+						tableList.animate(
+						{
+							'margin-top': -h + 7 + 'px'
+						}, 'slow');
+						
+						bar.animate (
+						{
+							'margin-top': index * bargap / len + 'px'
+						}, 'slow');
+					}).mouseout(function ()
+					{
+						tableList.stop();
+						bar.stop();
+						INDEX = parseFloat (bar.css('margin-top')) * len / bargap;
+					});
+					a.text (dom);
+					citychar.append(a);
+					
+					var tr = $('<tr><th><div>' + dom + '</div></th><td></td></tr>');
+					var td = tr.children('td');
+					var d = $(data[i]);
+					d.each (function (j, eleDom)
+					{
+						var a = $('<a href="#">' + eleDom + '</a>');
+						a.click (function ()
+						{
+							var txt = $(this).text();
+							currentCity.text (txt);
+							siteName.text (txt + '站');
+						});
+						td.append(a);
+					});
+					citylist.append (tr);
+				});
+				var scrollBody = $('div.scrollBody')[0];
+				if (!$.browser.mozilla)
+				{
+					scrollBody.onmousewheel = function (e) { mouseWheel (e, false, tableList, bar, len, bargap); };
+				}
+				else
+				{
+					scrollBody.addEventListener ('DOMMouseScroll', function (e) { mouseWheel (e, true, tableList, bar, len, bargap) }, false); 
+				}
+			});
+			
+			var INDEX = 0;
+			function mouseWheel (e, isMozilla, tableList, bar, len, bargap)
+			{
+				e = e || window.event;
+				var h = 0;
+				for ( var i = 0; i < INDEX; i++)
+				{
+					h += tableList.find('tr:eq('+i+')').height();
+				}
+				tableList.css('margin-top', -h + 7 + 'px');
+				bar.css('margin-top', INDEX * bargap / len + 'px')
+				if (isMozilla)
+				{
+					if (e.detail < 0)
+					{
+						INDEX--;
+						INDEX = INDEX < 0 ? 0 : INDEX;
+					}
+					else 
+					{
+						// down
+						INDEX++;
+						INDEX = INDEX > len ? len : INDEX;
+					}
+				}
+				else 
+				{
+					//down
+					if (e.wheelDelta < 0)
+					{
+						INDEX++;
+						INDEX = INDEX > len ? len : INDEX;
+					}
+					else
+					{
+						INDEX--;
+						INDEX = INDEX < 0 ? 0 : INDEX;
+					}	
+				}
+				return destroy (e);
+			}
+			var destroy = function (event)
+			{
+				if (!!$.browser.msie)
+				{
+					event.returnValue = false;
+					event.cancelBubble = true;
+				}
+				else
+				{
+					event.preventDefault ();
+					event.stopPropagation ();
+				}
+				return false;
+			}
+		</script><!--定位-->
+        <script src="js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/isotope.pkgd.min.js"></script>
+        <script src="js/jquery.nivo.slider.js"></script>
+		<script src="js/jquery.simpleLens.min.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/animated-heading.js"></script>
+        <script src="js/price-slider.js"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="js/jquery.countdown.js"></script>
+		<script src="js/jquery.meanmenu.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
+

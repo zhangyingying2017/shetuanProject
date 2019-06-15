@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+
+body{ background-color:#fafafa;}
+#top{ padding-top:226px; }
+#top h2{
+	font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 700;
+	display: block;
+	}
+#top h2 a{
+	color: rgba(21, 31, 44, 0.8);
+    border: 2px solid #00ADB5;
+    padding: 0 7px;
+    position: absolute;top:180px; left:600px;    
+	text-decoration: none;}
+#top ul{margin-left:350px;}
+#top ul li{list-style:none; float:left; margin:4px 50px;}
+#top ul li a{text-decoration:none;color:#000;font-weight:700;font-size: 30px;display:block;border-bottom:2px solid #fafafa; } 
+#top ul li a:hover{border-bottom:2px solid red;}
+#top img{width:100%;} 
+
+#middle{ margin:0 50px;padding:0 40px; margin-top:5px;}
+#middle h3{font-size:24px;}
+.middle{float:left; margin:30px 40px;}
+
+.trans { 
+-webkit-transition: 0.3s ease; 
+-moz-transition: 0.3s ease; 
+-ms-transition: 0.3s ease; 
+-o-transition: 0.3s ease; 
+transition: 0.3s ease; 
+} 
+.test_outer { 
+display: block; 
+width: 294px; 
+height: 280px; 
+position: relative; 
+overflow: hidden; 
+} 
+.test_cover { 
+width: 40px; 
+height: 40px; 
+border: 250px solid rgba(0, 0, 0, .35); 
+border-radius: 50%; 
+position: absolute; 
+left: -115px; 
+top: -155px; 
+} 
+.test_cover:hover { 
+width: 200px; 
+height: 200px; 
+left: -200px; 
+top: -185px; 
+} 
+.test_cover:hover:after { 
+content: "诺贝思蛋糕店"; 
+text-align:center; 
+margin:55px 0 0 40px; 
+color: #fff; 
+font: bold 16px/1.2 '微软雅黑'; 
+text-shadow: 1px 1px rgba(0, 0, 0, .35); 
+position: absolute; 
+}
+
+.demo {
+	width: 400px; padding:6px 10px;
+    margin: 40px auto 20px; 
+}
+.pager li {
+	display: inline-block;
+	line-height: 25px;
+}
+.pager a {
+	text-decoration: none;
+	display: block;
+	color: #f2f2f2;
+	text-shadow: 1px 0 0 #101011;
+	padding: 0 10px;
+	border-radius: 2px;
+	box-shadow: 0 1px 0 #5a5b5c inset,0 1px 0 #080808;
+    background-color:#3d3d3f;
+}
+.pager a:hover {
+	text-decoration: none;
+	box-shadow: 0 1px 0 #f9bd71 inset,0 1px 0 #0a0a0a;
+	background-color:#cc7300;
+}
+.bann h1{font-family: "Lobster Two",cursive;
+    font-size: 60pt;color: #fff;font-weight: 500;text-align: center; margin-top:-150px; margin-bottom:90px;}

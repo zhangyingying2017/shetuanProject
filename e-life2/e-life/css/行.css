@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+/*body{ background-color:#fafafa;}*/
+
+#wrap{ width:100%; margin:auto;/* background:url(../images/bg.jpg);*/ height:1850px;}
+#header{height:38px; background-color:#3f577f;}
+#header_r{ width:80px; height:30px; background-color:#102438; float:right; margin-right:30px; margin-top:4px; border-radius:5px; border:1px solid #102438;}
+#header_r img{ padding-left:7px; padding-top:10px;}
+#fenx_t{ width:100%;}
+
+#bottom{ margin:auto;/* border:1px solid red;*/height:1070px; position:relative; margin:20px 100px;}
+#left{ /*width:70%;*/ height:1000px;/* border:1px solid red;*/  position:absolute;top:0px; left:0px;}
+#left #top{ width:28px; height:50px; background:#eeeeee; color:#a4a3a3;font-size:14px; padding:22px 18px;}
+#left #top span{ font-size:32px; padding-top:6px;}
+#data{ width:715px; height:440px; /*border:1px solid red;*/ padding-bottom:20px;}
+#data_b{width:715px; height:140px;padding-bottom:20px;}
+#bot{width:28px; height:12px; background:#a7a91e;padding:6px 18px; margin-top:8px;}
+#jilu{width:620px; /*margin-left:5 0px; margin-right:20px;*/ position:absolute;top:0; right:0;}
+#jilu_t{ height:280px;border:1px solid #f5f5f5; padding:4px; background:#FFF;}
+#jilu_t img{ width:610px;}
+#jilu_t p{ background:#FFF; line-height:46px; font-size:20px; color:#565656; padding-left:8px;}
+#jilu_b{ background:#FFF; padding:6px; font-size:14px; line-height:24px; color:#606060; margin-top:20px;}
+#more{ width:86px; height:34px; background-color:#eee8e8; border-left:3px solid #b4b3b3; margin-top:6px;}
+#more span{ color:#a5a2a8;background:url(../images/fenxiang_more.png) no-repeat 6px 10px;/*border:1px solid #e5dfdf;*/font-size:10px;line-height:30px; padding:10px 20px;}
+#jilu_a{width:620px; /*margin-left:5 0px; margin-right:20px;*/ position:absolute;top:460px; right:0;}
+#jilu_r{ width:620px;height:130px;background-color:#FFF;border:1px solid #eeefef;position:absolute;top:924px; right:0} 
+
+#right{/*width:20%;*/height:1000px; /*border:1px solid red; */width:400px; position:absolute;top:0; right:0px;}
+#right h3{ font-size:16px; color:#d6c14c; line-height:30px;font-weight:600;}
+
+.right_t{ position:relative; margin-top:20px;}
+#img{ border:1px solid #f0f0f0; background-color:#FFF; width:70px;}
+#img img{ margin:4px;}
+.agileits_recent_posts_gridr{ position:absolute;top:20px; right:130px;}
+.agileits_recent_posts_gridr h4{ line-height:24px;}
+.agileits_recent_posts_gridr h4 a{
+    font-size: 1em;
+    text-decoration: none;
+    color: #212121;
+    line-height: 1.5em;
+	font-weight: 600;
+    text-transform: capitalize;
+}
+.agileits_recent_posts_gridr h5{ line-height:24px; padding-left:20px; background:url(../images/fenxiang_r_d.png) no-repeat 0px 5px;}
+.agileits_recent_posts_gridr h4 a:hover{
+    color: #ffac3a;
+}
+.right_b{width:300px; height:500px; background-color:#f6f6f6; margin-top:20px; padding-left:20px; padding-right:20px;}
+.right_b h3{padding-top:18px; margin-left:12px;}
+#right_b_t{ height:220px;/* border:1px solid red;*/}
+#right_b_t p{ line-height:24px; color:#333333; font-size:14px;}
+#right_b_t p span{color:#666666;}
+#right_b_t h4{line-height:26px; color:#999999; display:block; background-color:#eeeff2;width:320px;}
+
+.demo {
+	width: 400px;
+    margin: 0px auto 20px; 
+}
+.pager li {
+	display: inline-block;
+	line-height: 25px;
+}
+.pager a {
+	text-decoration: none;
+	display: block;
+	color: #f2f2f2;
+	text-shadow: 1px 0 0 #101011;
+	padding: 0 10px;
+	border-radius: 2px;
+	box-shadow: 0 1px 0 #5a5b5c inset,0 1px 0 #080808;
+    background-color:#193654;
+}
+.pager a:hover {
+	text-decoration: none;
+	box-shadow: 0 1px 0 #f9bd71 inset,0 1px 0 #0a0a0a;
+	background-color:#cc7300;
+}
+#bb{ height:240px; background-color:#ededed;}
+
+#bb_b{ height:80px; background-color:#333333;}
+
+
+#top{ padding-top:226px; }
+#top h2{
+	font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 700;
+	display: block;
+	}
+#top h2 a{
+	color: rgba(21, 31, 44, 0.8);
+    border: 2px solid #00ADB5;
+    padding: 0 7px;
+    position: absolute;top:180px; left:600px;    
+	text-decoration: none;}
+#top ul{margin-left:350px;}
+#top ul li{list-style:none; float:left; margin:4px 50px;}
+#top ul li a{text-decoration:none;color:#000;font-weight:700;font-size: 30px;display:block;border-bottom:2px solid #fafafa; } 
+#top ul li a:hover{border-bottom:2px solid red;}
+#top img{width:100%;height:340px;} 
+
+#middle{ margin:0 50px;padding:0 40px; margin-top:5px;}
+#middle h3{font-size:24px;}
+.middle{float:left; margin:30px 40px;}
+
+.trans { 
+-webkit-transition: 0.3s ease; 
+-moz-transition: 0.3s ease; 
+-ms-transition: 0.3s ease; 
+-o-transition: 0.3s ease; 
+transition: 0.3s ease; 
+} 
+.test_outer { 
+display: block; 
+width: 294px; 
+height: 280px; 
+position: relative; 
+overflow: hidden; 
+} 
+.test_cover { 
+width: 40px; 
+height: 40px; 
+border: 250px solid rgba(0, 0, 0, .35); 
+border-radius: 50%; 
+position: absolute; 
+left: -115px; 
+top: -155px; 
+} 
+.test_cover:hover { 
+width: 200px; 
+height: 200px; 
+left: -200px; 
+top: -185px; 
+} 
+.test_cover:hover:after { 
+content: "诺贝思蛋糕店"; 
+text-align:center; 
+margin:55px 0 0 40px; 
+color: #fff; 
+font: bold 16px/1.2 '微软雅黑'; 
+text-shadow: 1px 1px rgba(0, 0, 0, .35); 
+position: absolute; 
+}

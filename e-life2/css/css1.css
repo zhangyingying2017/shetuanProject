@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,ul,li,p,img{margin:0;padding:0;}
+ul,li{list-style:none}
+a{text-decoration:none;}
+img{border:none;}
+
+.top p{ line-height:40px;font-size:16px;}
+.top p a{ font-size:16px; color:#4d7163;line-height:40px;}
+.top p a:hover{ color:#0342f7;}
+.top p span{ padding:0 3px;}
+
+.navbar{background:none; border:none;}
+.bar_bot{ height:60px; background-color:#ecefe8;}
+
+.bot .col-lg-5{ border-top:1px solid #e0e2e1; border-bottom:1px solid #e0e2e1; padding:10px 0;}
+.container h3{ color:#83b323; font-size:22px;}
+.bot ul{ padding-left:28px;}
+.bot a{ font-size:18px; line-height:40px; color:#5b5b5b; background:url(../img/dot.png) no-repeat 0 6px; padding-left:12px;}
+
+.bottom{ height:134px; border:1px solid #eeeeee; margin-top:22px; margin-bottom:14px;}
+.bottom h2{ font-size:20px; color:#4b5356; border-bottom:1px solid #eeeeee; padding-left:16px;} 
+.bottom ul .li{ float:left;}
+.bottom ul{ padding-left:4px;}
+.bottom ul ul li{ line-height:34px;}
+.bottom ul ul li a{ color:#767676; font-size:16px; padding:0 10px;}
+.read{ padding:0 15px;}
+
+.bottom_b{ height:70px; background-color:#6fa324;}
+.bottom_b p,.bottom_b a{ line-height:70px; font-size:14px; color:#FFF;}
+
+.bottom_bt{ background-color:#f4f4f4; width:100%;}
+.bottom_bt p{text-align:center; font-size:12px;color:#a7a6a4; line-height:28px;}
+.bottom_bt p a{ color:#787878; line-height:36px;}
+.bottom_bt p span{ padding:0 6px;}

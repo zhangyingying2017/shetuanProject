@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="css/eating.css"/>
+<link href="css/头尾.css" type="text/css" rel="stylesheet">
+    <script>
+window.onload = function (){
+	var oH = document.getElementById('header_r');
+	var oDeng = document.getElementById('deng');
+	var oZhuce = document.getElementById('zhuce');
+	var oDenglu = document.getElementById('denglu');
+	var oBut = document.getElementById('but');
+	
+	oH.onmouseover = function (){
+		oDeng.style.display = 'block';
+	};
+	oDeng.onmouseover = function (){
+		this.style.display = 'block';
+	};
+	oDeng.onmouseout = function hide(){
+		this.style.display = 'none';
+	};
+	
+	oZhuce.onclick = function (){
+		oDenglu.style.display = 'block';
+	};
+	oBut.onclick = function(){
+		oDenglu.style.display = 'none';
+		}
+		
+		
+	var oDiv = document.getElementById("welcome_l");
+	var time = null;
+	oDiv.onmouseover = function(){fn(1120)};
+	oDiv.onmouseout = function(){fn(1310)};
+	function fn(itarget){
+		var speed = 0;
+		if(itarget < oDiv.offsetLeft){
+			speed = -10;
+			}else{
+			speed = 10;
+		}
+		clearInterval(time);
+		time = setInterval(function (){
+			if(oDiv.offsetLeft == itarget){
+				clearInterval(time);
+				}else{
+					oDiv.style.left = oDiv.offsetLeft + speed + 'px';
+					}
+			},20);
+		}
+};
+</script>
+</head>
+<body>
+<div id="wrap">
+<div id="header">
+    	<img src="images/E-life.png">
+        <div id="header_r">
+            <a href="#"><img src="images/var_r.jpg"></a>
+        </div>
+        <div id="deng">
+              <div class="deng">
+                <form method="post"> 
+                <tr align="right"><td><font color="#ecedee">账户：</font></td><td><input type="text" required  name="u"></input></td></tr>  
+                <tr align="right"><td><font color="#ecedee">密码：</font></td><td><input type="password" required name="p"></input></td></tr>
+               <tr id="bb"><td><a href="#" id="zhuce">注册账户</a></td><td><a href="">登录</a></td></tr> 
+                </form>   
+               </div>
+           </div>
+           <div class="denglu" id="denglu">
+              <div class="dl">
+                  <h2>Login</h2> 
+                    <form method="post">   
+                      <input id="in2" type="text" required placeholder="输入用户名/邮箱/手机号码" name="u"></input><span></span>  
+                      <input id="in1" type="password" required placeholder="密码输入密码" name="p"></input><span></span>
+                      <input id="in1" type="password" required placeholder="确认输入密码" name="p"></input><span id="fal"></span>
+                      <button id="but" type="submit">取消</button> 
+                      <button class="but" type="submit">确定</button>   
+                    </form>   
+              </div>
+            </div>
+            
+            <div id="welcome_l"> 
+                <div id="welcome_m">
+                    <h2>某某某，你好！</h2>
+                    <h2>欢迎来到E-LIFE</h2>
+                    <h2 class="welcome_m_z"><span id="welcome_m_z"><a href="#">注销</a></span></h2>
+                </div>
+            </div>
+           
+    </div>
+    <div id="top">
+    	<h2><a href="#">eating</a></h2>
+       <ul id="ul">
+          <li><a href="">世界</a></li>
+          <li><a href="">推荐</a></li>
+          <li><a href="">生活</a></li>
+          <li><a href="">分享</a></li>
+       </ul> 
+       <img src="images/banner-bg.jpg"/>
+       <div class="bann"><h1>delicious food</h1></div>
+    </div>
+    <div id="middle">
+      <h3>今日优推荐</h3>
+        <div class="middle">
+        	<a href="#" class="test_outer"> <span class="test_cover trans"></span> <img src="images/eating_b.png" width="294" height="280" /></a> 
+            <img src="images/living_bot.png"/>
+         </div>
+   		  <div class="middle">
+        	<a href="#" class="test_outer"> <span class="test_cover trans"></span> <img src="images/eating_b.png" width="294" height="280" /></a> 
+            <img src="images/living_bot.png"/>
+         </div>
+          <div class="middle">
+        	<a href="#" class="test_outer"> <span class="test_cover trans"></span> <img src="images/eating_b.png" width="294" height="280" /></a> 
+            <img src="images/living_bot.png"/>
+         </div>
+          <div class="middle">
+        	<a href="#" class="test_outer"> <span class="test_cover trans"></span> <img src="images/eating_b.png" width="294" height="280" /></a> 
+            <img src="images/living_bot.png"/>
+         </div>
+          <div class="middle">
+        	<a href="#" class="test_outer"> <span class="test_cover trans"></span> <img src="images/eating_b.png" width="294" height="280" /></a> 
+            <img src="images/living_bot.png"/>
+         </div>
+          <div class="middle">
+        	<a href="#" class="test_outer"> <span class="test_cover trans"></span> <img src="images/eating_b.png" width="294" height="280" /></a> 
+            <img src="images/living_bot.png"/>
+         </div>
+          <div class="middle">
+        	<a href="#" class="test_outer"> <span class="test_cover trans"></span> <img src="images/eating_b.png" width="294" height="280" /></a> 
+            <img src="images/living_bot.png"/>
+         </div>
+          <div class="middle">
+        	<a href="#" class="test_outer"> <span class="test_cover trans"></span> <img src="images/eating_b.png" width="294" height="280" /></a> 
+            <img src="images/living_bot.png"/>
+         </div>
+          <div class="middle">
+        	<a href="#" class="test_outer"> <span class="test_cover trans"></span> <img src="images/eating_b.png" width="294" height="280" /></a> 
+            <img src="images/living_bot.png"/>
+         </div>	
+    </div>
+    <div class="demo">
+            <ul class="pager">
+                <li id="page_up"><a href="#page_up">&laquo;</a></li>
+                <li id="one"><a href="#one">1</a></li>
+                <li id="two"><a href="#two">2</a></li>
+                <li id="three"><a href="#three">3</a></li>
+                <li id="four"><a href="#four">4</a></li>
+                <li id="five"><a href="#five">5</a></li>
+                <li id="six"><a href="#six">6</a></li>
+                <li id="seven"><a href="#seven">7</a></li>
+                <li id="next_page"><a href="#next_page">&raquo;</a></li>
+                <li id="last"><a href="#last">Last &raquo;</a></li>
+            </ul>
+	</div>
+    <div id="bb_b">
+    	<p class="footer-nav">
+            <a href="http://www.china z.com/aboutus/index.html" target="_blank">关于我们</a> |
+            <a href="http://www.china z.com/aboutus/contact.php?from=down" target="_blank">联系我们</a> |
+            <a href="http://www.china z.com/aboutus/ad.html" target="_blank">广告服务</a> |
+            <a href="http://www.china z.com/aboutus/link.html" target="_blank">友情链接</a> |
+            <a href="http://www.china z.com/aboutus/announce.html" target="_blank">版权声明</a> |
+            <a href="http://www.chin az.com/aboutus/join.html" target="_blank">人才招聘</a> |
+            <a href="http://www.chin az.com/aboutus/help.html" target="_blank">帮助</a> |
+            <a href="/member/submi t.aspx" target="_blank">发布软件/源码</a> |
+            <a href="http://down.china z.com/member/contribute.aspx" target="_blank">发布文章/稿件</a>
+        </p>
+        <p>豫ICP备08105208号 郑州轻工业学院增值电信业务经营许可证</p>
+    </div>
+</div>
+</div>
+</body>
+</html>
